@@ -5,6 +5,7 @@ The objective of this lab was to explore Windows system components, including ac
 
 This ab was performed on a **Windows 7 virtual macchine**, chosen because it is compatible with the Acer laptop (2009 model) Utilized for this course.
 
+
 ---
 
 
@@ -21,6 +22,7 @@ This ab was performed on a **Windows 7 virtual macchine**, chosen because it is 
 -Attempted to terminate specific processes using the Kill Process function  
 -Observed behavior of processes in relation to commands executed
 
+
 ---
 
 
@@ -32,7 +34,11 @@ The `process.exe` tool refused to run when attempting to explore an active proce
 **Resolution:**
 Used **Autoruns64** as an alternative to investigate active processes successfully.
 
-***Issue 2:**
+
+---
+
+
+**Issue 2:**
 The "Find Windows Process" tool was unavailable.  
 
 **Resolution:**
@@ -41,6 +47,7 @@ Pressed **Ctrl + Shift + Esc** to open **Task Manager**, which allowed access to
 **Observation (not an issue):**  
 Noticed that the browser window process temporarily disappeared from the process list.  
 *(This was for awareness only and did not affect lab completion.)*
+
 
 ---
 
@@ -51,13 +58,16 @@ Clicking **Kill Process** on `command.exe` did not terminate the command prompt 
 **Resolution:**
 Selected **Kill Process** on `conhost.exe` instead, which successfully terminated the command prompt.
 
+
 ---
+
 
 **Issue 4:**
 The **Threads** tab in the Properties window was unavailable.  
 
 **Resolution:**
 Navigated to the **Performance** tab, then clicked **Resource Monitor** at the bottom to inspect threads and resource usage.
+
 
 ---
 
